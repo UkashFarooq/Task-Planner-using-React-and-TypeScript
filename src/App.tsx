@@ -111,7 +111,7 @@ const App: React.FC = () => {
 
 
   return (
-    <DragDropContext onDragEnd={()=>{}}>
+    <DragDropContext onDragEnd={onDragEnd}>
     <div className="App">
     <span className='heading'>Any-Do</span>
     <InputFeild todo ={todo} setTodo={setTodo} handleAdd= {handleAdd}/>
